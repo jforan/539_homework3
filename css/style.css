@@ -34,11 +34,12 @@ p{
   padding-top: 10px;
 }
 
-a{
+a:focus{
   color: #B21F50;
   font-size: 16px;
   text-decoration-line: underline;
   text-decoration-style: wavy;
+  border: black solid 2px;
 }
 
 /* Note: I used the following site to help with the rounded border edges -- https://stackoverflow.com/questions/4932181/rounded-table-corners-css-only/4932321 */
